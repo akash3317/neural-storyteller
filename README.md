@@ -5,7 +5,7 @@ neural-storyteller is a recurrent neural network that generates little stories a
 <img src="https://github.com/ryankiros/neural-storyteller/blob/master/images/ex1.jpg" height="220px" align="left">
 *We were barely able to catch the breeze at the beach , and it felt as if someone stepped out of my mind . She was in love with him for the first time in months , so she had no intention of escaping . The sun had risen from the ocean , making her feel more alive than normal . She 's beautiful , but the truth is that I do n't know what to do . The sun was just starting to fade away , leaving people scattered around the Atlantic Ocean . I d seen the men in his life , who guided me at the beach once more .*
 
-[Samim](http://samim.io/) has made an awesome blog post with lots of results [here](https://medium.com/@samim/generating-stories-about-images-d163ba41e4ed).
+[Samim](http://samim.io/) has made an awesome blog post with many of results [here](https://medium.com/@samim/generating-stories-about-images-d163ba41e4ed).
 
 Some more results from an older model trained on Adventure books can be found [here](http://www.cs.toronto.edu/~rkiros/adv_L.html).
 
@@ -15,7 +15,7 @@ The whole approach contains 4 components:
 * [conditional neural language models](https://github.com/ryankiros/skip-thoughts/tree/master/decoding)
 * style shifting (described in this project)
 
-The 'style-shifting' operation is what allows our model to transfer standard image captions to the style of stories from novels. The only source of supervision in our models is from [Microsoft COCO](http://mscoco.org/) captions. That is, we did not collect any new training data to directly predict stories given images.
+The 'style-shifting' operation is what allows our model to transfer standard image captions to the style of stories from novels or movies. The only source of supervision in our models is from [Microsoft COCO](http://mscoco.org/) captions. That is, we did not collect any new training data to directly predict stories given images.
 
 Style shifting was inspired by [A Neural Algorithm of Artistic Style](http://arxiv.org/abs/1508.06576) but the technical details are completely different.
 
